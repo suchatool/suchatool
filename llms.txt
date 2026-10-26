@@ -1,0 +1,220 @@
+﻿# 速查在线工具箱 (suchatool.cn)
+
+> 一个纯浏览器端的在线工具集合站：737 个工具分 10 类，另有 16 套场景合集、48 篇选型指南、48 篇速查参考、286 篇问题解答与 430 条 AI 提示词模板。
+> 图片压缩、PDF 处理、格式转换、哈希计算等敏感操作全部在浏览器本地完成，文件不上传服务器；全站无需注册、无广告、无付费墙。
+
+说明：这个文件是给 AI 助手与检索器阅读的站点导览（curated index），完整页面清单见 [/sitemap.xml](https://www.suchatool.cn/sitemap.xml)。每条目的冒号后是它解决的问题。
+
+## 站点结构
+
+- [首页](https://www.suchatool.cn/): 按「要做的事」组织的入口，含 8 个场景卡与全部 10 类工具目录
+- [文本工具](https://www.suchatool.cn/category/text.html): 64 个工具，含选型提示与常用工具清单
+- [图像工具](https://www.suchatool.cn/category/image.html): 64 个工具，含选型提示与常用工具清单
+- [编程开发](https://www.suchatool.cn/category/code.html): 95 个工具，含选型提示与常用工具清单
+- [生活工具](https://www.suchatool.cn/category/life.html): 78 个工具，含选型提示与常用工具清单
+- [影音工具](https://www.suchatool.cn/category/media.html): 54 个工具，含选型提示与常用工具清单
+- [实用查询](https://www.suchatool.cn/category/query.html): 134 个工具，含选型提示与常用工具清单
+- [效率办公](https://www.suchatool.cn/category/office.html): 67 个工具，含选型提示与常用工具清单
+- [AI工具](https://www.suchatool.cn/category/ai.html): 58 个工具，含选型提示与常用工具清单
+- [站长工具](https://www.suchatool.cn/category/webmaster.html): 66 个工具，含选型提示与常用工具清单
+- [商业营销](https://www.suchatool.cn/category/marketing.html): 57 个工具，含选型提示与常用工具清单
+- [站点地图](https://www.suchatool.cn/sitemap.html): 全部 737 个工具的人类可读目录
+- [搜索](https://www.suchatool.cn/search.html): 支持中文名称与拼音首字母检索
+
+## 场景合集（按「要完成一件事」组织，含步骤与配套工具）
+
+- [自媒体运营工具包](https://www.suchatool.cn/collections/self-media.html): 一个人运营一个账号，从选题到发布，六个环节的工具串成一条流水线 · 5 步
+- [程序员日常工具箱](https://www.suchatool.cn/collections/dev-daily.html): 每天都在重复的那些操作，做成一个书签页就够用了 · 6 步
+- [求职简历一条龙](https://www.suchatool.cn/collections/job-hunting.html): 从改简历到谈薪水，投递前后真正用得上的那几件事 · 6 步
+- [电商卖家工具箱](https://www.suchatool.cn/collections/ecommerce.html): 一笔订单到底赚多少，先把账算明白再谈运营 · 6 步
+- [学生党学习工具包](https://www.suchatool.cn/collections/student-kit.html): 写作业、查资料、赶论文，一个页面解决大部分卡点 · 5 步
+- [财务与人事办公包](https://www.suchatool.cn/collections/finance-hr.html): 薪酬、报销、预算、绩效——四类每月都要重算一遍的账 · 6 步
+- [PDF 全套处理](https://www.suchatool.cn/collections/pdf-toolkit.html): 扫描件、合同、标书、论文——PDF 上会遇到的所有操作 · 6 步
+- [图片处理全家桶](https://www.suchatool.cn/collections/image-toolkit.html): 不用装 PS，日常图片处理一个页面走完 · 6 步
+- [视频剪辑辅助包](https://www.suchatool.cn/collections/video-editing.html): 剪辑软件导出之后，还有一半工作在等你 · 5 步
+- [音频处理与播客](https://www.suchatool.cn/collections/audio-podcast.html): 录完只是拿到素材，响度和格式才是发布的门槛 · 5 步
+- [AI 应用成本核算](https://www.suchatool.cn/collections/ai-cost.html): 上线前先算清楚：一次调用多少钱、一张卡能扛多少并发 · 6 步
+- [网站上线与运维](https://www.suchatool.cn/collections/site-launch.html): 从买域名到稳定运行，站长真正会用到的那一批工具 · 8 步
+- [广告投放测算](https://www.suchatool.cn/collections/ad-ops.html): 投放决策不靠感觉，靠一张算得清的账 · 6 步
+- [配色与视觉设计](https://www.suchatool.cn/collections/design-color.html): 从取一个颜色，到生成一整页可用的 CSS · 6 步
+- [健康与身体测算](https://www.suchatool.cn/collections/health-body.html): 把"感觉还行"换成几个能追踪的数字 · 6 步
+- [日常起居与生活查询](https://www.suchatool.cn/collections/life-daily.html): 那些一年用不了几次、但每次都要现搜的小事 · 5 步
+
+## 选型指南（同类工具怎么选，含决策表与一句话结论）
+
+- [PDF 工具怎么选](https://www.suchatool.cn/guides/pdf-tools.html): 先判定文件类型：文字版直接用常规工具；扫描件要提取文字必须先做 OCR（本站部分工具无法识别扫描件，请按下表选择）。
+- [JSON 工具怎么选](https://www.suchatool.cn/guides/json-tools.html): 「看不懂」用格式化，「对不对」用 Schema 校验，「怎么取」用 JSONPath，「变成什么」用语言转换器；比较前一定先按键排序。
+- [编码、加密与哈希怎么选](https://www.suchatool.cn/guides/encode-encrypt.html): 先问「要不要还原」和「要不要保密」：能还原不保密=编码，能还原要保密=加密，不能还原=哈希。Base64 是编码，不是加密。
+- [哈希与文件校验怎么选](https://www.suchatool.cn/guides/hash-check.html): 防随机损坏：CRC32 / MD5 够用且快；防人为篡改：用 SHA-256 及以上；存密码：必须 bcrypt / argon2，绝不能直接 MD5。
+- [图片格式怎么选](https://www.suchatool.cn/guides/image-format.html): 照片用 JPEG 或 WebP，截图和需要透明的图用 PNG 或 WebP，网站图标用 ICO，矢量图用 SVG，动图用 WebP 或 GIF。
+- [图片压缩怎么选](https://www.suchatool.cn/guides/image-compress.html): 截图 / 界面图用无损优化（不掉画质、可放心用）；照片用有损压缩（体积降幅最大，但必须留原图）；SVG 用文本压缩。
+- [二维码与条码怎么选](https://www.suchatool.cn/guides/qrcode-barcode.html): 装网址、文字、名片等信息用二维码（容量大、抗污损）；商品条码、物流标签等固定编码用一维条码（识别快、成本低）。要加 Logo 就把纠错等级调到最高。
+- [颜色与配色工具怎么选](https://www.suchatool.cn/guides/color-tools.html): 设计取色用屏幕取色器，调色用 HSL 或色轮，落地到网页前用对比度检查过无障碍线，涉及印刷再转 CMYK 对照。
+- [音视频格式与压缩怎么选](https://www.suchatool.cn/guides/av-format.html): 体积由码率决定而不是分辨率，画质由编码与码率共同决定；扩展名只代表容器，不改变编码，改后缀不等于转格式。
+- [单位换算速查](https://www.suchatool.cn/guides/unit-convert.html): 先确认两件事：单位是十进制还是二进制（影响存储换算），以及是单利还是复利（影响利率换算）——这两处是最高频的错误来源。
+- [Cron 表达式工具怎么选](https://www.suchatool.cn/guides/cron-tools.html): 写表达式用生成器；看不懂已有的用反向解析；上线前一定要用可视化确认未来几次执行时间——这一步能避免绝大多数定时任务事故。
+- [正则表达式工具怎么选](https://www.suchatool.cn/guides/regex-tools.html): 边写边验用测试工具，读懂复杂正则用可视化解构，忘了语法查速查表，要让别人看懂就用中文说明——复杂正则务必配注释。
+- [AI 工具怎么选](https://www.suchatool.cn/guides/ai-tools.html): 敏感内容只能用本地处理型工具；需要生成能力时按用途选第三方服务，并先用成本估算工具算清预算，不要把未公开材料直接粘进在线服务。
+- [贷款计算器怎么选](https://www.suchatool.cn/guides/loan-calc.html): 房贷（含公积金组合贷）用房贷计算器，车贷用专用工具；只知道「每月能还多少钱」时用反算工具倒推；打算提前还款，先把能省的利息算清楚再决定。
+- [存款利息计算器怎么选](https://www.suchatool.cn/guides/deposit-interest.html): 一次存入用整存整取，每月固定存用零存整取，想按月领利息用存本取息，随时可能动用资金选活期或定活两便，只闲置几周的大额资金考虑通知存款。
+- [理财收益计算器怎么选](https://www.suchatool.cn/guides/invest-return.html): 算一次性买卖的赚赔比例用投资回报率，跨期限产品比较用年化收益率，长期滚存用复利，定期定额投资用基金定投计算器；做利率换算时务必看清是 360 天还是 365 天口径。
+- [装修用量计算器怎么选](https://www.suchatool.cn/guides/home-decor-calc.html): 按「铺什么、贴什么」选对应工具；核心是先量准房间净尺寸，再按材料类型加上 5%~10% 损耗，壁纸和带图案的材料尤其要考虑对花与裁切浪费。
+- [材料重量计算器怎么选](https://www.suchatool.cn/guides/material-weight.html): 金属按形状选工具（板材 / 方管 / 圆管），木材用密度计算器，纸张用克重换算；所有金属计算得到的都是「理论重量」，实际过磅会有偏差。
+- [健康指标计算器怎么选](https://www.suchatool.cn/guides/health-index.html): 初筛胖瘦看 BMI，想更准确看体脂率，安排饮食看基础代谢与每日消耗，规划运动看心率区间；所有公式都基于人群平均值，个体差异需要自己结合实际感受校正。
+- [文本转换工具怎么选](https://www.suchatool.cn/guides/text-convert.html): 字形类转换（大小写、简繁、全半角）看结果就能校验；编码类转换（Unicode、摩尔斯）要清楚编码规则本身；简繁转换时务必留意「一简对多繁」的字，机械转换会出错。
+- [文本清洗整理工具怎么选](https://www.suchatool.cn/guides/text-clean.html): 先定目标再选工具：整块格式乱用文本格式化工具，只清空白用空行清理，只换标点用引号统一；处理顺序建议「空白 → 标点 → 去重 → 排序 → 替换」，避免重复返工。
+- [尺码对照工具怎么选](https://www.suchatool.cn/guides/size-chart.html): 先按品类选工具：上衣裤子用综合尺码对照，衬衫看领围、西装看肩宽、文胸看上下胸围差、戒指看周长、鞋子看脚长；最终下单前务必再看该品牌的官方尺码表。
+- [数学计算工具怎么选](https://www.suchatool.cn/guides/math-calc.html): 连续运算、三角函数用科学计算器；需要展示过程或一次完成一类计算（公约数、质因数、统计量）时用专用工具；注意角度制与弧度制、总体与样本标准差这两组最容易搞错的设置。
+- [日期时间工具怎么选](https://www.suchatool.cn/guides/date-time.html): 先明确口径再选工具：算时点用日期计算与农历转换，算间隔用日期计算器与工作日计算器，算未来日期用时间加减，跨时区用时区转换；注意自然日与工作日、时区与夏令时这两组最容易出错的地方。
+- [HTML 与其他格式互转工具怎么选](https://www.suchatool.cn/guides/html-convert.html): 先看目标平台再选：PHP 用 html-php-conv，JSP 用 html-jsp-convert，老 ASP 用 html-asp-convert，VB.NET 用 html-vb-convert，Perl 用 html-perl-convert，论坛或 CMS 用 html-ubb-convert；方向反过来（把纯文本变成 HTML）用 text-to-html。
+- [代码格式化与转换工具怎么选](https://www.suchatool.cn/guides/code-toolchain.html): 美化可读选 js-format / sql-format / source-code-formatter；压缩保护选 js-obfuscator；跨语言搬运选 curl-to-code 或 sql-to-go；对比与调试选 code-diff、xpath-tester、html-preview。
+- [CSS 视觉生成器怎么选](https://www.suchatool.cn/guides/css-generator.html): 做过渡动效拖 css-bezier，做加载态选 css-loading，做流式响应式尺寸用 css-clamp，搭网格布局用 css-grid，做按钮皮肤用 button-css-generator。
+- [技术速查表与对照表怎么用](https://www.suchatool.cn/guides/tech-reference.html): 按查询对象选表：数值进制用 base-ref，字符编码用 ascii-table，IP 与整数互转用 ip-to-number，文件类型用 mime-reference，按键用 keycode-table，网络端口用 port-lookup，时间服务器用 ntp-query，后端函数用 php-functions，语言代码用 language-codes。
+- [文本提取与脱敏工具怎么选](https://www.suchatool.cn/guides/text-extract.html): 抓内容用 text-extract（邮箱批量则用 email-extract），按分隔符取列用 column-split，遮盖敏感信息用 text-mask，长文本按长度切块用 text-chunk-split，名单排序用 name-sort。
+- [文本变形与字符处理工具怎么选](https://www.suchatool.cn/guides/text-transform.html): 倒序用 text-reverse，金额大写用 amount-uppercase，竖排排版用 shutxt，查字符编码用 char-info，Emoji 与短代码互转用 emoji-shortcode，找符号用 special-symbols。
+- [占位文本与符号生成工具怎么选](https://www.suchatool.cn/guides/text-generate.html): 造测试数据用 random-string，扩充字数用 repeat-text，设计占位用 lorem-ipsum，统计词频用 word-frequency，找表情用 emoji-picker，找符号素材用 special-symbols，找文案素材用 quotes，做艺术字用 text-art，Markdown 写作与公众号排版用 markdown-edit 和 md-wechat。
+- [软件快捷键速查怎么选](https://www.suchatool.cn/guides/shortcut-ref.html): 按软件选表：修图用 ps-shortcuts，做表格文档演示用 wps-shortcuts 或 office-shortcuts，系统操作用 win-shortcuts，写代码用 vscode-shortcuts；自己设的热键撞车了用 shortcut-conflict 检测。
+- [项目估算与工期计算器怎么选](https://www.suchatool.cn/guides/project-calc.html): 算投资回报选 project-roi，排项目日期用 project-schedule，找关键路径用 cpm-critical-path，估敏捷迭代用 sprint-velocity，估发言时长用 ppt-time，估打印成本用 print-cost。
+- [文件与文档批处理工具怎么选](https://www.suchatool.cn/guides/file-batch.html): 批量改名用 batch-rename，比对两份清单用 list-compare，压缩解压用 zip-tool，Excel 列号互转用 excel-col，生成电子名片用 vcard-generator，给文档加密码用 excel-password 或 ppt-password。
+- [站点容量与可用性诊断工具怎么选](https://www.suchatool.cn/guides/site-ops.html): 估带宽用 bandwidth-calc，估抓取额度用 crawl-budget，规划 IPv6 网段用 ipv6-subnet，查多端错版用 responsive-check，定位网络卡点用 mtr-visualizer，做值守监控用 url-auto-refresh，兜底错误页用 error-page-gen。
+- [SEO 与安全自查工具怎么选](https://www.suchatool.cn/guides/seo-check.html): 查关键词堆砌用 keyword-density，把标题转成友好 URL 用 url-slug，批量造待测地址用 url-batch-generator，检查安全响应头用 http-header-analyzer，查扩展名与类型用 mime-reference。
+- [营销投放与销售测算工具怎么选](https://www.suchatool.cn/guides/marketing-calc.html): 判断投放是否划算用 email-roi 与 adsense-revenue，评估达人报价用 kol-quote，检查渠道健康用 email-deliverability 与 influencer-engagement，分解销售目标用 sales-quota，估算管道产出用 sales-pipeline-velocity，测算会员与列表价值用 membership-value 与 email-list-growth。
+- [图片风格化与特效工具怎么选](https://www.suchatool.cn/guides/image-effect.html): 照片风格化用 sketch-converter、image-emboss、image-pixelate，颜色反转用 image-invert，转字符画用 ascii-art，抠主体用 image-bg-remove，读图中文字用 image-ocr，做或拆 GIF 用 gif-maker 与 image-gif-frame。
+- [图片批量生成工具怎么选](https://www.suchatool.cn/guides/image-generator.html): 造个性化素材用 avatar-generator 与 seal-gen，把多张照片拼成图形用 heart-collage，按规格批量出图标用 android-icon-maker，做线稿填色用 coloring-board。
+- [电脑外设与网络自检工具怎么选](https://www.suchatool.cn/guides/device-check.html): 测显示器用 screen-check，测鼠标用 mouse-check，测键盘用 keyboard-check，测麦克风用 mic-test，测网速用 speed-test；量屏幕上任意像素尺寸用 screen-ruler，需要录屏留证用 screen-recorder。
+- [传统文化与民俗查询工具怎么选](https://www.suchatool.cn/guides/chinese-culture.html): 查黄历干支用 dao-calendar 与 sexagenary-cycle，问民俗寓意用 zhougong-dream、qinggong-tu、wuxing-dress、lucky-number，读典籍与典故用 sanzijing、xiehouyu、festival-origin、emperors、surname-lookup。
+- [生活与工程实用计算器怎么选](https://www.suchatool.cn/guides/daily-calc.html): 算用车成本用 fuel-consumption，判断水质软硬用 water-hardness，比单双休薪资用 rest-day-salary，算充电费用用 ev-charge-cost，算声速用 sound-speed，算材料硬度用 brinell-hardness，算复印缩放用 paper-scale，查纸张尺寸用 paper-size-list。
+- [AI 应用成本估算工具怎么选](https://www.suchatool.cn/guides/ai-cost.html): 固定提示词优化用 sysprompt-cost，多步 Agent 任务用 agent-steps-budget，内容审核护栏用 guardrail-cost，模型分流省钱用 llm-router-savings，含工具调用的 Agent 总成本用 agent-tool-call-cost。
+- [视频参数与带宽估算工具怎么选](https://www.suchatool.cn/guides/video-estimate.html): 调快门与运动模糊用 video-shutter-angle，防渐变色带用 video-gradient-band，算会议带宽用 video-conference-bw，估镜头数与切片算力用 scene-cut-est。
+- [AI 产品怎么选：付费订阅前先用免费平替试一遍](https://www.suchatool.cn/guides/ai-pick.html): 对话用 ChatGPT/Claude/DeepSeek 先比再订，成本拿 llm-cost 和 token-est 算；绘画先看 image-gen-cost 和 image-pixels；写作润色用 grammar-check；语音转写用 whisper-cost 估价；订阅前先用站内免费工具验证需求真伪。
+- [生成式 AI 合规自检工具怎么选](https://www.suchatool.cn/guides/ai-compliance.html): 先跑 genai-compliance 按主体类型筛出适用条款并拿到得分；再分两条线打标识——面向用户的用 ai-label 生成显式标识文案，面向网页与文件的用 aigc-metadata 生成隐式标识字段；最后在提交内容给第三方模型前用 prompt-risk 过一遍提示词风险。
+- [内容发布与合规自检工具怎么选](https://www.suchatool.cn/guides/content-publish-check.html): 先跑 social-spec 确认目标平台的正文与标题上限并粘贴文案字数检测；改写文案后用 ad-law-words 扫绝对化用语；标题摘要定稿前用 serp-preview 看截断效果，邮件渠道另用 email-subject-lint 校验主题行；落地页上线前用 landing-check 打分、用 cta-copy 生成按钮文案。
+- [世界地理与国家信息查询怎么选](https://www.suchatool.cn/guides/geo-lookup.html): 要查国家的综合信息（货币、人口、面积、区号、域名后缀）用 country-info；只查首都或由国家名与首都名互推用 shoudu-query；要看国旗图案用 flag-lookup；查中国省级行政区的简称与省会城市用 shengshu-jiancheng。
+
+## 速查参考（常数值与规范，可直接引用）
+
+- [HTTP 状态码速查表](https://www.suchatool.cn/ref/http-status.html): 1xx 到 5xx 常用状态码的含义与出现场景，以及 301/302、401/403、502/503/504 这几组最容易搞混的到底差在哪。
+- [HTTP 请求头与响应头速查](https://www.suchatool.cn/ref/http-headers.html): 缓存怎么设、跨域怎么放行、哪些安全头必须加、Cookie 该带什么属性——最常用的头部字段按用途分成四组对照。
+- [文件扩展名与 MIME 类型对照速查](https://www.suchatool.cn/ref/file-formats.html): 常见扩展名对应哪个 MIME 类型、属于什么类别、该用什么打开，以及为什么改扩展名并不会真的改变文件格式。
+- [字符编码与中文乱码速查](https://www.suchatool.cn/ref/char-encoding.html): Unicode、UTF-8、GBK 到底谁是谁，中文乱码为什么会出现、能不能修复，BOM 什么时候该加——按「编码→解码」这条线一次讲清。
+- [正则表达式语法速查表](https://www.suchatool.cn/ref/regex-syntax.html): 元字符、量词、分组、零宽断言逐项对照，并把「看起来一样、含义完全不同」的写法挑出来讲。这篇讲语法本身，不是现成模式合集。
+- [Unix 时间戳与时区速查](https://www.suchatool.cn/ref/timestamp-timezone.html): 时间戳是秒还是毫秒、为什么要用 UTC、本地时间和时区偏移怎么换算，以及 2038 年问题到底会发生在哪些系统上。
+- [HTTP 请求方法速查（安全与幂等语义）](https://www.suchatool.cn/ref/http-methods.html): GET 和 POST 到底差在哪、PUT 与 PATCH 该怎么选、哪些方法可以放心重试——按「安全 / 幂等 / 有无请求体」三个维度一次理清。
+- [DNS 记录类型速查（解析与邮箱配置）](https://www.suchatool.cn/ref/dns-records.html): A、AAAA、CNAME、MX、TXT、NS、CAA 各自管什么、怎么填，以及为什么宿主机（根域名）不能直接设 CNAME。
+- [IP 地址与保留网段速查](https://www.suchatool.cn/ref/ip-address.html): 哪些地址是内网、谁是回环、169.254 开头为什么上不了网，以及 CIDR 怎么写、一个 /24 到底能放多少台机器。
+- [HTTPS 证书类型与常见错误速查](https://www.suchatool.cn/ref/tls-cert.html): DV / OV / EV 证书差在哪、证书链为什么会缺、六种浏览器报错各自指向什么原因，以及 TLS 1.2 与 1.3 的握手差别。
+- [URL 结构与百分号编码速查](https://www.suchatool.cn/ref/url-structure.html): 一个 URL 拆开是七个部分、哪些字符必须转义、中文地址为什么变成一长串百分号，以及 URL 到底有没有长度限制。
+- [结构化数据格式对照速查](https://www.suchatool.cn/ref/data-formats.html): CSV、JSON、YAML、TOML、XML、INI 各自适合什么场景、能不能写注释、有哪些踩过一次就再也不会忘的坑。
+- [Base64 与各类编码对照速查](https://www.suchatool.cn/ref/base64-encoding.html): Base64 不是加密、体积为什么会涨三分之一、URL 编码和 HTML 实体又各管什么——三种「编码」的区别一次说清。
+- [UUID 版本与格式速查](https://www.suchatool.cn/ref/uuid-format.html): UUID 那串十六进制里藏着版本号、第 13 位能一眼看出生成方式，以及 v1 为什么会泄露 MAC 地址、v7 为什么更适合做数据库主键。
+- [换行符、缩进与行尾速查](https://www.suchatool.cn/ref/line-endings.html): CRLF 和 LF 为什么会让一整个文件显示成「全部改动」、Git 该怎么配、缩进用 Tab 还是空格，以及末尾那个空行到底重不重要。
+- [图片 EXIF 元数据速查](https://www.suchatool.cn/ref/exif-metadata.html): 照片里除了画面还藏着什么、GPS 坐标怎么泄露出去、Orientation 为什么会让图片躺倒，以及清理元数据能省多少体积。
+- [图片分辨率与 DPI 速查](https://www.suchatool.cn/ref/image-resolution.html): 像素、PPI、DPI 到底谁决定什么，「改 DPI 让图片变大」为什么是错觉，以及一寸二寸证件照的具体像素尺寸。
+- [颜色模型与色彩空间速查](https://www.suchatool.cn/ref/color-models.html): RGB、HEX、HSL、HSV、CMYK 各自怎么描述颜色、什么时候该用哪个，以及对比度 4.5:1 这条无障碍硬线是怎么来的。
+- [视频分辨率与码率速查](https://www.suchatool.cn/ref/video-resolution.html): 720p、1080p、4K 指的是什么、4K 为什么有两种尺寸、码率该给多少，以及怎么用一个公式估出文件大小。
+- [CSS 长度单位速查](https://www.suchatool.cn/ref/css-units.html): px、em、rem、vw 各自相对什么、为什么移动端 100vh 会溢出、clamp() 怎么写出自适应字号——一次理清长度单位。
+- [字体格式速查（TTF / OTF / WOFF2）](https://www.suchatool.cn/ref/font-formats.html): TTF 和 OTF 差在轮廓算法、WOFF2 为什么能小一半、网页该用哪种格式，以及可变字体是怎么做到一个文件顶多个字重的。
+- [网络端口与协议速查](https://www.suchatool.cn/ref/tcp-ports.html): 端口为什么要分段、80 与 443 之外还有哪些常用服务、TCP 与 UDP 各自适合什么，以及「端口被占用」该怎么排查。
+- [HTTP 缓存机制速查](https://www.suchatool.cn/ref/http-cache.html): 强缓存与协商缓存的分工、Cache-Control 每个指令到底说什么、ETag 与 Last-Modified 怎么配合，以及 no-cache 和 no-store 的关键差别。
+- [跨域与 CORS 速查](https://www.suchatool.cn/ref/cors-security.html): 同源策略到底在防什么、什么样的请求会触发预检、Access-Control-* 头部怎么配才不会报错，以及几个必踩的坑。
+- [Cookie 属性与安全标志速查](https://www.suchatool.cn/ref/cookie-attrs.html): HttpOnly、Secure、SameSite 各自挡住哪类攻击、Domain 与 Path 的匹配规则、会话 Cookie 与持久 Cookie 的差别。
+- [邮件协议与送达认证速查](https://www.suchatool.cn/ref/email-delivery.html): SMTP、POP3、IMAP 谁管发谁管收、SPF / DKIM / DMARC 三条 DNS 记录如何配合、邮件进垃圾箱该从哪里查起。
+- [User-Agent 与爬虫标识速查](https://www.suchatool.cn/ref/ua-client-hints.html): UA 字符串里到底写了什么、怎么分辨搜索引擎爬虫与伪装爬虫、robots.txt 与 UA 的配合，以及为什么 UA 已经不该被完全信任。
+- [中英文标点符号速查](https://www.suchatool.cn/ref/punctuation-marks.html): 全角半角怎么对应、中文的顿号与破折号该怎么打、哪种引号才是规范写法，以及最常见的几种混用错误。
+- [Unicode 符号与码点速查](https://www.suchatool.cn/ref/unicode-symbols.html): 常用箭头、数学、货币、勾叉符号怎么找，U+ 码点是什么、一个汉字到底占几个字节，以及全角半角的编码差异。
+- [中文排版规则速查](https://www.suchatool.cn/ref/cjk-typography.html): 该不该首行缩进、标点能不能出现在行首、中英文之间要不要加空格、数字与单位怎么排——中文排版的核心规则一次讲清。
+- [数字与金额格式速查](https://www.suchatool.cn/ref/number-formats.html): 千分位怎么断、中文大写金额怎么用、罗马数字与科学计数法是什么、百分比与千分比怎么换算——数字书写的规范一次理清。
+- [日期与时间格式速查](https://www.suchatool.cn/ref/date-formats.html): ISO 8601 为什么是数据交换的首选、各国日期习惯差在哪、12 与 24 小时制怎么换算、格式化占位符怎么读。
+- [哈希与摘要算法速查](https://www.suchatool.cn/ref/hash-algorithms.html): MD5 和 SHA-256 差在哪、为什么 MD5 不能再用于安全场景、CRC32 和加密哈希有什么本质区别、密码该用哪种算法存。
+- [口令强度与安全速查](https://www.suchatool.cn/ref/password-security.html): 密码强度到底看什么、为什么「长度比复杂度重要」、口令该怎么生成与保管、双因素认证能挡住什么。
+- [进制与位运算速查](https://www.suchatool.cn/ref/base-number.html): 二进制、八进制、十六进制怎么换算、前缀怎么写、负数在计算机里是怎么表示的，以及位运算到底在算什么。
+- [存储容量与数据单位速查](https://www.suchatool.cn/ref/storage-units.html): KB 和 KiB 为什么不一样、买的硬盘为什么显示容量变小、Mb 和 MB 差在哪、下载速度该怎么估算时间。
+- [压缩格式与算法速查](https://www.suchatool.cn/ref/compression-algos.html): 有损与无损怎么分、打包和压缩是两件事、zip 和 tar.gz 差在哪、为什么图片视频再压也小不了多少。
+- [血压与心率参考值速查](https://www.suchatool.cn/ref/blood-pressure.html): 血压数字怎么看、收缩压与舒张压分别代表什么、静息心率的正常范围与最大心率怎么算，以及测量时最容易忽略的几个细节。
+- [身体指标参考值速查](https://www.suchatool.cn/ref/body-metrics.html): BMI 的区间怎么划、体脂率多少算正常、腰围为什么比体重更值得关注、基础代谢率是什么——身体数据一次看懂。
+- [纸张尺寸与克重速查](https://www.suchatool.cn/ref/paper-sizes.html): A4 为什么是 210×297、A 系列与 B 系列怎么来的、开本是什么意思、纸张克重怎么选、A4 和 Letter 差多少。
+- [服装与鞋码对照速查](https://www.suchatool.cn/ref/clothing-sizes.html): S/M/L 对应的具体尺寸是什么、鞋码在各国之间怎么换算、为什么同一个尺码穿起来不一样、网购衣服该量哪个数据。
+- [货币代码与符号速查](https://www.suchatool.cn/ref/currency-codes.html): CNY 和 RMB 有什么区别、¥ 和 $ 分别在哪些国家用、货币代码的三位字母怎么记、金额里的小数位为什么不一样。
+- [SQL 数据类型与列约束速查](https://www.suchatool.cn/ref/sql-data-types.html): INT 和 BIGINT 差多少、金额为什么不能用 FLOAT、VARCHAR 的长度到底是字符还是字节、DATETIME 和 TIMESTAMP 怎么选——建表前的类型功课一篇看全。
+- [WCAG 无障碍关键数值速查](https://www.suchatool.cn/ref/wcag-values.html): 对比度 4.5:1 是怎么来的、多大字号算大文本、按钮要满足什么对比、WCAG 2.2 新增的目标尺寸要求——做无障碍验收要用的数值都在这。
+- [音名、八度与 MIDI 编号速查](https://www.suchatool.cn/ref/pitch-notation.html): 中央 C 是 C4 还是 C3、A4 为什么是 440 赫兹、MIDI 编号怎么换算频率、采样率 44100 能录到多高——调音与音频处理的记谱常识。
+- [扭矩、功率与转速换算速查](https://www.suchatool.cn/ref/torque-power.html): 扭矩和马力是什么关系、9550 这个常数哪来的、公制马力和英制马力差多少——电机与发动机参数换算一篇理清。
+- [欧姆定律与电功率速查](https://www.suchatool.cn/ref/ohms-law.html): 电压电流电阻三角关系、四个功率公式什么时候用哪个、串并联电阻怎么算、常见设备的电压参考——电子入门的数值基础。
+- [排列组合与计数公式速查](https://www.suchatool.cn/ref/combinatorics.html): 排列和组合什么时候用哪个、可重复的情况怎么算、扑克牌型和彩票中奖数怎么估——计数问题公式与常用值一张表。
+
+## 精选问答（按站内被引用次数排序）
+
+完整 286 篇见 [问题解答索引](https://www.suchatool.cn/qa/)。
+
+- [身份证号最后一位校验码是怎么算出来的？](https://www.suchatool.cn/qa/id-card-checksum.html): 18 位身份证的最后一位不是随手定的，而是一个加权取模算出来的校验位——连那个 X 也是算出来的。（站内引用 17 次）
+- [宠物年龄换算为什么 2 岁之后每年只等于人类 4 岁？](https://www.suchatool.cn/qa/pet-age-why.html): 猫狗头两年就长到人类 24 岁，之后每年只加 4 到 7 岁——不是简单乘以 7，而是一条分段折线。（站内引用 17 次）
+- [蒙特卡罗方法为什么能算出圆周率？](https://www.suchatool.cn/qa/monte-carlo-pi.html): 往正方形里随机撒点，数一数有多少落在内切圆里，就能反推出圆周率——听起来不靠谱，但它确实收敛。（站内引用 16 次）
+- [面积公式里的二分之一到底是哪儿来的？](https://www.suchatool.cn/qa/quad-area-half.html): 三角形、梯形、扇形都带二分之一，而平行四边形和长方形不带——差别在于能不能「拼成一个平行四边形」。（站内引用 14 次）
+- [年终奖多发一块钱，为什么到手反而少几百？](https://www.suchatool.cn/qa/annual-bonus-tax-cliff.html): 单独计税是按全额定档的：奖金除以十二只是用来查税率，税率一跳，全额都按新税率算。（站内引用 13 次）
+- [App 图标为什么要准备好几套尺寸？](https://www.suchatool.cn/qa/app-icon-density-spec.html): 一种密度一套位图，外加一层会给厂商遮罩裁掉的自适应图标。留白留错，圆角就成了切角。（站内引用 13 次）
+- [广告后台的转化数，为什么和订单后台对不上？](https://www.suchatool.cn/qa/attribution-lastclick-gap.html): 每个平台都按自己的归因窗口算，同一次下单会被好几个平台各记一次。（站内引用 13 次）
+- [视频导出来音画不同步，问题出在剪辑软件吗？](https://www.suchatool.cn/qa/av-sync-drift-source.html): 先分清是一直差固定时间还是越播越差，前者查时间戳，后者几乎都是帧率或采样率不匹配。（站内引用 13 次）
+- [宝宝月龄怎么算？早产儿为什么要用矫正月龄？](https://www.suchatool.cn/qa/baby-month-age.html): 凑够 40 周才是「起点」——早产宝宝的发育里程碑要按矫正月龄对，而不是按出生天数。（站内引用 13 次）
+- [获客成本、客户终身价值、回本周期哪个数字该信？](https://www.suchatool.cn/qa/cac-ltv-payback.html): 三个数字是一套的：只看比值会漏掉现金流，只看回本周期会漏掉长期是否赚钱。（站内引用 13 次）
+- [视频里的 4:2:0 到底丢了多少颜色？](https://www.suchatool.cn/qa/chroma-subsampling-loss.html): 它只丢色度的空间分辨率、不丢色相，明度是全分辨率保留的，所以自然画面几乎看不出来。（站内引用 13 次）
+- [圆的面积公式 πr² 到底是怎么推出来的？](https://www.suchatool.cn/qa/circle-area-formula.html): πr² 不是背下来的常数组合——把圆切成无数细扇形再拼起来，它就变成一个长方形。（站内引用 13 次）
+- [圆锥的体积为什么正好是等底等高圆柱的三分之一？](https://www.suchatool.cn/qa/cone-cylinder-third.html): 这个三分之一不是近似值，而是精确的整数比——三个同底等高的锥体刚好能拼满一个柱体。（站内引用 13 次）
+- [为什么缓动曲线能让元素冲过头再弹回来？](https://www.suchatool.cn/qa/css-bezier-curve-math.html): 横轴是时间、纵轴是进度，横轴必须单调，纵轴却可以越界——越界的那一段就是回弹。（站内引用 13 次）
+- [唐宋之间还夹着哪些政权？](https://www.suchatool.cn/qa/dynasty-gap-between-tang-song.html): 口诀把三段并立期藏起来了：唐宋之间是五代十国，两宋与辽、西夏、金长期并立，元明之间还有北元。（站内引用 13 次）
+- [化学方程式为什么怎么配都配不平？](https://www.suchatool.cn/qa/equation-balance-trap.html): 配平本质上是解一个线性方程组的零空间，物种一多，观察法就必然打结。（站内引用 13 次）
+- [AI 评测只跑几十条，结论能信吗？](https://www.suchatool.cn/qa/eval-sample-size-small.html): 比例型指标的误差随样本量的平方根缩小，几十条跑出来的差异，多数落在噪声里。（站内引用 13 次）
+- [K 因子大于 1，产品就一定能自己涨起来吗？](https://www.suchatool.cn/qa/k-factor-not-enough.html): K 大于 1 只是每一代能多带出一个人，涨多快还要看一轮传播要花多久。（站内引用 13 次）
+- [麦克风测试没声音，是设备坏了还是被浏览器挡住了？](https://www.suchatool.cn/qa/mic-no-sound-permission.html): 权限弹窗只是第三道门，前面还有安全上下文和响应头两道，任何一道没过都不会有声音。（站内引用 13 次）
+- [加了预加载，为什么页面反而更慢了？](https://www.suchatool.cn/qa/preload-hint-misuse.html): 少写一个属性，浏览器就认不出你预加载的是同一个文件，于是同一份资源下载两遍。（站内引用 13 次）
+- [名字里用生僻字会带来哪些麻烦？](https://www.suchatool.cn/qa/rare-char-name.html): 证件上能打出来的字，到了银行、机票、社保系统里可能变成一个方框或者问号。（站内引用 13 次）
+- [标准差为什么会有两个公式，我该用哪一个？](https://www.suchatool.cn/qa/sample-vs-population-sd.html): 两个公式只差分母：除以 n−1 的是样本版，除以 n 的是总体版；默认几乎都该用样本版。（站内引用 13 次）
+- [扇形、椭圆、圆环的面积该怎么算？](https://www.suchatool.cn/qa/sector-ellipse-annulus.html): 这三个图形都是圆变形来的，所以公式里都带 π——但哪一个用半径、哪一个用两个半轴，差别很大。（站内引用 13 次）
+- [基金定投的收益率，为什么和净值涨幅对不上？](https://www.suchatool.cn/qa/sip-annualized-vs-nav.html): 一个算基金涨了多少（时间加权），一个算你的钱赚了多少（资金加权），问的不是同一件事。（站内引用 13 次）
+- [声速为什么不是一个固定的数字？](https://www.suchatool.cn/qa/sound-speed-varies.html): 常说的 340 米每秒只是在某个温度下的近似值，温度一变声速就跟着变，介质换了差得更远。（站内引用 13 次）
+- [查出来的数据明明是空的，为什么程序直接报错了？](https://www.suchatool.cn/qa/sql-null-to-struct.html): 数据库里的空值不是空字符串。往不能表示「没有值」的类型里塞，驱动会直接拒绝。（站内引用 13 次）
+- [批量重命名后文件为什么排乱了？](https://www.suchatool.cn/qa/batch-rename-sort-order.html): 文件名是按字符逐个比的，所以第一个、第十个和第一百个会挤在一起。（站内引用 12 次）
+- [品牌起名怎么避免撞上注册商标？](https://www.suchatool.cn/qa/brand-trademark-risk.html): 我国实行申请在先原则，同名商标谁先申请谁拿——所以起名之后的第一件事不是设计 logo，而是查重。（站内引用 12 次）
+- [中文和英文之间到底要不要加空格？](https://www.suchatool.cn/qa/cn-en-spacing.html): 加空格是长期形成的排版惯例，而不是国标强制——该不该加，看的是相邻两个字符分别属于哪一类。（站内引用 12 次）
+- [练字帖的格子怎么选？田字格和米字格差在哪？](https://www.suchatool.cn/qa/copybook-grid-choice.html): 田字格管结构、米字格管笔画方向、九宫格管比例——选错格子，练的不是同一个东西。（站内引用 12 次）
+- [做出来的 GIF 全是色带，是哪里设置错了？](https://www.suchatool.cn/qa/gif-256-color-limit.html): 不是设置问题。这个格式每个像素只存一个调色板下标，调色板最多 256 项，渐变色必然被压成台阶。（站内引用 12 次）
+- [JS 代码混淆之后就能保护源码吗？](https://www.suchatool.cn/qa/js-obfuscation-not-security.html): 混淆只提高阅读门槛，不改变「浏览器必须下载并执行你的代码」这个事实。（站内引用 12 次）
+- [JSONPath 里两个点和一个星号有什么区别？](https://www.suchatool.cn/qa/jsonpath-syntax-traps.html): 两个点是递归到任意深度，一个星号只看当前一层，混用就会捞到不该要的字段。（站内引用 12 次）
+- [落地页转化差，第一屏该先改什么？](https://www.suchatool.cn/qa/landing-first-screen.html): 用户在第一屏只愿意花几秒钟，所以第一屏必须回答三个问题：这是什么、跟我有什么关系、下一步做什么。（站内引用 12 次）
+- [把底片反相还原，为什么颜色总是不对？](https://www.suchatool.cn/qa/negative-orange-mask.html): 彩色底片的橙色是故意做进去的：它用来补偿染料的吸收偏差。直接反相会把这一层橙原样烙进画面，得到一片青蓝。（站内引用 12 次）
+- [白噪音真的能助眠吗？白、粉、棕噪音有什么区别？](https://www.suchatool.cn/qa/noise-color-diff.html): 颜色只描述一件事：能量随频率下降多快。白噪不降、粉噪每倍频降 3 分贝、棕噪降 6 分贝。（站内引用 12 次）
+- [从 Display P3 转到 sRGB 为什么颜色变暗了？](https://www.suchatool.cn/qa/p3-to-srgb.html): P3 大约比 sRGB 多四分之一颜色，多出来的那部分在转换时只能被裁掉或压缩——鲜艳的颜色因此变灰。（站内引用 12 次）
+- [中文排序为什么和想的不一样？](https://www.suchatool.cn/qa/pinyin-stroke-collation.html): 汉字在字符集里的码位与读音、笔画毫无关系。同一份名单，按码位排是一种结果，按拼音排是另一种结果。（站内引用 12 次）
+- [二维码明明生成好了，为什么扫不出来？](https://www.suchatool.cn/qa/qrcode-scan-fail.html): 扫不出几乎总能归到三件事：留白不够、对比不足、或者码太密。（站内引用 12 次）
+- [网页上的随机抽签真的公平吗？](https://www.suchatool.cn/qa/random-fairness.html): 用了随机函数不等于公平——公平要看三件事：等概率、不可预测、结果可验证。（站内引用 12 次）
+- [屏幕上的尺子，为什么量出来不是真实尺寸？](https://www.suchatool.cn/qa/screen-ruler-needs-calibration.html): 浏览器拿不到屏幕的物理尺寸，只知道分辨率与像素比。所以「自动识别」必然有误差，摆一张实物校准才准。（站内引用 12 次）
+- [Sitemap 校验报 lastmod 格式错误，该怎么改？](https://www.suchatool.cn/qa/sitemap-lastmod-error.html): lastmod 只认 W3C 日期时间格式：要么写纯日期，要么写带时区的完整时间，斜杠和裸时间都会被判错。（站内引用 12 次）
+- [同一张图要发多个平台，尺寸怎么裁才不糊？](https://www.suchatool.cn/qa/social-cover-crop.html): 别为每个平台单独做图，先把主体压在中间的安全区里，四周留出可裁的余量。（站内引用 12 次）
+- [球的体积为什么是 4/3πr³？](https://www.suchatool.cn/qa/sphere-volume-formula.html): 不用积分也能推：把半球和「圆柱挖去圆锥」逐层对比，每一层的截面积都相等。（站内引用 12 次）
+- [开平方为什么只给正数？](https://www.suchatool.cn/qa/sqrt-principal-root-only.html): 根号是一个函数，一个输入只能对应一个输出。所以 9 的平方根有两个，但根号 9 只等于 3。（站内引用 12 次）
+- [双色球中一等奖的概率到底有多小？](https://www.suchatool.cn/qa/ssq-winning-odds.html): 一千七百七十多万分之一——按每周开奖三次算，平均要等十几万年才轮到一次。（站内引用 12 次）
+- [子网里算可用主机数，为什么一定要减 2？](https://www.suchatool.cn/qa/subnet-minus-two.html): 首地址是网段自己的名字，末地址是喊话用的喇叭，这两个都不能发给某台机器。（站内引用 12 次）
+- [《百家姓》是按人口多少排的吗？](https://www.suchatool.cn/qa/surname-order-not-population.html): 开头那四个姓是政治排序：国姓、当地君主、王妃、邻国国姓。按今天的人口排，前三名完全不是它们。（站内引用 12 次）
+- [代码里混用 Tab 和空格为什么会错位？](https://www.suchatool.cn/qa/tab-vs-space-indent.html): 制表符宽度是显示设置，缩进层级是语法事实，两者一错位就报错。（站内引用 12 次）
+- [时区转换算出来的时间，为什么会比实际差一小时？](https://www.suchatool.cn/qa/timezone-dst-offset.html): 差的这一小时几乎总来自夏令时：某一端在换算的那个日期上「正在」把钟拨快了一小时。（站内引用 12 次）
+- [「天青色」到底是什么色值？](https://www.suchatool.cn/qa/traditional-hue-hex-not-fixed.html): 传统色名是描述性词汇，不是色号。同一个名字在不同来源里可以给出相差很大的 RGB，谁都不算错。（站内引用 12 次）
+- [打字速度的 WPM 到底是怎么算的？](https://www.suchatool.cn/qa/typing-wpm.html): WPM 不是每分钟打了多少个字，而是字符数先除以 5 换成的每分钟词数——那个 5 是约定，不是标准。（站内引用 12 次）
+- [全国都用同一个时间，那些时差去哪了？](https://www.suchatool.cn/qa/unified-timezone-country.html): 时区是行政划定的，不是地理必然，同一个钟点在不同经度上对应着不同的太阳位置。（站内引用 12 次）
+- [世界上到底有多少个国家？](https://www.suchatool.cn/qa/world-countries-count.html): 答案取决于你怎么定义「国家」：按联合国口径是 195，按其他口径会多出好几个。（站内引用 12 次）
+- [曝光和触达是一个意思吗？](https://www.suchatool.cn/qa/ad-frequency-vs-reach.html): 触达数的是人，曝光数的是次。同一批人看十遍，触达不动、曝光翻十倍——用错分母，投放评估会完全走样。（站内引用 11 次）
+- [AdSense 报表里的收入到底由哪几段拼成？](https://www.suchatool.cn/qa/adsense-revenue-breakdown.html): 发布商拿到的不是广告主出价，而是抽成之后的千次展示收入；把 RPM、CPC、CTR 三个数摆在一起，才知道钱是在哪一段少掉的。（站内引用 11 次）
+- [AI 生成的文字和图片，标识到底该怎么写？](https://www.suchatool.cn/qa/ai-label-text-image.html): 文本标识要同时含「人工智能」和「生成」两项要素，图片标识要放在边角且文字高度不低于最短边的 5%——都是强制国标里的硬指标。（站内引用 11 次）
+- [AI 生成的歌，为什么人声听起来都像同一个人？](https://www.suchatool.cn/qa/ai-music-similar-vocals.html): 音色来自有限的样本与固定的风格模板，同一个模型在相近提示下会收敛到差不多的声音。（站内引用 11 次）
+- [AI 生成的 PPT，一改文字排版就崩？](https://www.suchatool.cn/qa/ai-ppt-layout-breaks.html): 它交给你的是文本框加固定版式槽位，文字一变长就溢出，而版面不会自动重排。（站内引用 11 次）
+- [空调说的「匹」到底是多大功率？](https://www.suchatool.cn/qa/aircon-horsepower-myth.html): 「匹」原本是输入功率的单位，但在空调行业里被拿来标制冷量，两个口径差了大约三倍。（站内引用 11 次）
+
+## AI 提示词模板
+
+- [提示词库](https://www.suchatool.cn/prompts/): 430 条可复制模板，按 14 个使用场景分组（写作、营销、编程、视频、学习、职场等）
+
+## 关于本站
+
+- [关于我们](https://www.suchatool.cn/about.html): 站点定位、工具制作原则、如何维持运营（无广告联盟、不接付费排名）、微信公众号入口
+- [隐私政策](https://www.suchatool.cn/privacy.html): 本地处理说明与数据边界
+- [更新日志](https://www.suchatool.cn/changelog.html): 按时间倒序记录功能上线与内容建设
+- [AI 内容标识](https://www.suchatool.cn/ai-label.html): AI 参与内容的范围与人工核验方式
+
