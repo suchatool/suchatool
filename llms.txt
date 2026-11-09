@@ -1,6 +1,6 @@
 ﻿# 速查在线工具箱 (suchatool.cn)
 
-> 一个纯浏览器端的在线工具集合站：737 个工具分 10 类，另有 16 套场景合集、49 篇选型指南、54 篇速查参考、292 篇问题解答与 409 条 AI 提示词模板。
+> 一个纯浏览器端的在线工具集合站：753 个工具分 10 类，另有 24 套场景合集、49 篇选型指南、54 篇速查参考、292 篇问题解答与 409 条 AI 提示词模板。
 > 图片压缩、PDF 处理、格式转换、哈希计算等敏感操作全部在浏览器本地完成，文件不上传服务器；全站无需注册、无广告、无付费墙。
 
 说明：这个文件是给 AI 助手与检索器阅读的站点导览（curated index），完整页面清单见 [/sitemap.xml](https://www.suchatool.cn/sitemap.xml)。每条目的冒号后是它解决的问题。
@@ -8,17 +8,17 @@
 ## 站点结构
 
 - [首页](https://www.suchatool.cn/): 按「要做的事」组织的入口，含 8 个场景卡与全部 10 类工具目录
-- [文本工具](https://www.suchatool.cn/category/text.html): 64 个工具，含选型提示与常用工具清单
-- [图像工具](https://www.suchatool.cn/category/image.html): 64 个工具，含选型提示与常用工具清单
+- [文本工具](https://www.suchatool.cn/category/text.html): 67 个工具，含选型提示与常用工具清单
+- [图像工具](https://www.suchatool.cn/category/image.html): 68 个工具，含选型提示与常用工具清单
 - [编程开发](https://www.suchatool.cn/category/code.html): 95 个工具，含选型提示与常用工具清单
 - [生活工具](https://www.suchatool.cn/category/life.html): 78 个工具，含选型提示与常用工具清单
 - [影音工具](https://www.suchatool.cn/category/media.html): 54 个工具，含选型提示与常用工具清单
 - [实用查询](https://www.suchatool.cn/category/query.html): 134 个工具，含选型提示与常用工具清单
-- [效率办公](https://www.suchatool.cn/category/office.html): 67 个工具，含选型提示与常用工具清单
+- [效率办公](https://www.suchatool.cn/category/office.html): 76 个工具，含选型提示与常用工具清单
 - [AI工具](https://www.suchatool.cn/category/ai.html): 58 个工具，含选型提示与常用工具清单
 - [站长工具](https://www.suchatool.cn/category/webmaster.html): 66 个工具，含选型提示与常用工具清单
 - [商业营销](https://www.suchatool.cn/category/marketing.html): 57 个工具，含选型提示与常用工具清单
-- [站点地图](https://www.suchatool.cn/sitemap.html): 全部 737 个工具的人类可读目录
+- [站点地图](https://www.suchatool.cn/sitemap.html): 全部 753 个工具的人类可读目录
 - [搜索](https://www.suchatool.cn/search.html): 支持中文名称与拼音首字母检索
 
 ## 场景合集（按「要完成一件事」组织，含步骤与配套工具）
@@ -39,6 +39,14 @@
 - [配色与视觉设计](https://www.suchatool.cn/collections/design-color.html): 从取一个颜色，到生成一整页可用的 CSS · 6 步
 - [健康与身体测算](https://www.suchatool.cn/collections/health-body.html): 把"感觉还行"换成几个能追踪的数字 · 6 步
 - [日常起居与生活查询](https://www.suchatool.cn/collections/life-daily.html): 那些一年用不了几次、但每次都要现搜的小事 · 5 步
+- [房贷与购房成本](https://www.suchatool.cn/collections/loan-house.html): 买房涉及的钱不止月供：首付、税费、提前还款违约金，每一步都影响总支出 · 4 步
+- [存款与理财收益](https://www.suchatool.cn/collections/saving-yield.html): 同样是存钱，活期、定存、国债、理财的实际到手收益可能差一倍以上 · 4 步
+- [装修与家装用量](https://www.suchatool.cn/collections/home-renovation.html): 装修超支多半不是单价谈高了，而是材料买多了或者买少了再补货 · 4 步
+- [几何与数学计算](https://www.suchatool.cn/collections/math-geometry.html): 手工算面积体积容易记混公式，这里的每一步都给出过程而不只是结果 · 4 步
+- [文本清洗与批量整理](https://www.suchatool.cn/collections/text-clean.html): 从表格或聊天记录里粘出来的文本，九成需要先清洗才能用 · 5 步
+- [编解码与加解密](https://www.suchatool.cn/collections/codec-crypto.html): 编码不是加密，加密不等于安全——先把这三件事分清楚 · 5 步
+- [尺码与身体对照](https://www.suchatool.cn/collections/size-fitting.html): 网购退换货一半是因为尺码，而尺码表本身各家都不统一 · 4 步
+- [时间与日程安排](https://www.suchatool.cn/collections/time-schedule.html): 算天数、排工作日、约跨时区会议，手动算最容易漏掉的那一天 · 4 步
 
 ## 选型指南（同类工具怎么选，含决策表与一句话结论）
 
@@ -153,66 +161,66 @@
 
 完整 292 篇见 [问题解答索引](https://www.suchatool.cn/qa/)。
 
-- [身份证号最后一位校验码是怎么算出来的？](https://www.suchatool.cn/qa/id-card-checksum.html): 18 位身份证的最后一位不是随手定的，而是一个加权取模算出来的校验位——连那个 X 也是算出来的。（站内引用 17 次）
-- [宠物年龄换算为什么 2 岁之后每年只等于人类 4 岁？](https://www.suchatool.cn/qa/pet-age-why.html): 猫狗头两年就长到人类 24 岁，之后每年只加 4 到 7 岁——不是简单乘以 7，而是一条分段折线。（站内引用 17 次）
-- [蒙特卡罗方法为什么能算出圆周率？](https://www.suchatool.cn/qa/monte-carlo-pi.html): 往正方形里随机撒点，数一数有多少落在内切圆里，就能反推出圆周率——听起来不靠谱，但它确实收敛。（站内引用 16 次）
-- [面积公式里的二分之一到底是哪儿来的？](https://www.suchatool.cn/qa/quad-area-half.html): 三角形、梯形、扇形都带二分之一，而平行四边形和长方形不带——差别在于能不能「拼成一个平行四边形」。（站内引用 14 次）
-- [年终奖多发一块钱，为什么到手反而少几百？](https://www.suchatool.cn/qa/annual-bonus-tax-cliff.html): 单独计税是按全额定档的：奖金除以十二只是用来查税率，税率一跳，全额都按新税率算。（站内引用 13 次）
-- [App 图标为什么要准备好几套尺寸？](https://www.suchatool.cn/qa/app-icon-density-spec.html): 一种密度一套位图，外加一层会给厂商遮罩裁掉的自适应图标。留白留错，圆角就成了切角。（站内引用 13 次）
-- [广告后台的转化数，为什么和订单后台对不上？](https://www.suchatool.cn/qa/attribution-lastclick-gap.html): 每个平台都按自己的归因窗口算，同一次下单会被好几个平台各记一次。（站内引用 13 次）
-- [视频导出来音画不同步，问题出在剪辑软件吗？](https://www.suchatool.cn/qa/av-sync-drift-source.html): 先分清是一直差固定时间还是越播越差，前者查时间戳，后者几乎都是帧率或采样率不匹配。（站内引用 13 次）
-- [宝宝月龄怎么算？早产儿为什么要用矫正月龄？](https://www.suchatool.cn/qa/baby-month-age.html): 凑够 40 周才是「起点」——早产宝宝的发育里程碑要按矫正月龄对，而不是按出生天数。（站内引用 13 次）
-- [获客成本、客户终身价值、回本周期哪个数字该信？](https://www.suchatool.cn/qa/cac-ltv-payback.html): 三个数字是一套的：只看比值会漏掉现金流，只看回本周期会漏掉长期是否赚钱。（站内引用 13 次）
-- [视频里的 4:2:0 到底丢了多少颜色？](https://www.suchatool.cn/qa/chroma-subsampling-loss.html): 它只丢色度的空间分辨率、不丢色相，明度是全分辨率保留的，所以自然画面几乎看不出来。（站内引用 13 次）
-- [圆的面积公式 πr² 到底是怎么推出来的？](https://www.suchatool.cn/qa/circle-area-formula.html): πr² 不是背下来的常数组合——把圆切成无数细扇形再拼起来，它就变成一个长方形。（站内引用 13 次）
-- [圆锥的体积为什么正好是等底等高圆柱的三分之一？](https://www.suchatool.cn/qa/cone-cylinder-third.html): 这个三分之一不是近似值，而是精确的整数比——三个同底等高的锥体刚好能拼满一个柱体。（站内引用 13 次）
-- [为什么缓动曲线能让元素冲过头再弹回来？](https://www.suchatool.cn/qa/css-bezier-curve-math.html): 横轴是时间、纵轴是进度，横轴必须单调，纵轴却可以越界——越界的那一段就是回弹。（站内引用 13 次）
-- [唐宋之间还夹着哪些政权？](https://www.suchatool.cn/qa/dynasty-gap-between-tang-song.html): 口诀把三段并立期藏起来了：唐宋之间是五代十国，两宋与辽、西夏、金长期并立，元明之间还有北元。（站内引用 13 次）
-- [化学方程式为什么怎么配都配不平？](https://www.suchatool.cn/qa/equation-balance-trap.html): 配平本质上是解一个线性方程组的零空间，物种一多，观察法就必然打结。（站内引用 13 次）
-- [AI 评测只跑几十条，结论能信吗？](https://www.suchatool.cn/qa/eval-sample-size-small.html): 比例型指标的误差随样本量的平方根缩小，几十条跑出来的差异，多数落在噪声里。（站内引用 13 次）
-- [K 因子大于 1，产品就一定能自己涨起来吗？](https://www.suchatool.cn/qa/k-factor-not-enough.html): K 大于 1 只是每一代能多带出一个人，涨多快还要看一轮传播要花多久。（站内引用 13 次）
-- [麦克风测试没声音，是设备坏了还是被浏览器挡住了？](https://www.suchatool.cn/qa/mic-no-sound-permission.html): 权限弹窗只是第三道门，前面还有安全上下文和响应头两道，任何一道没过都不会有声音。（站内引用 13 次）
-- [加了预加载，为什么页面反而更慢了？](https://www.suchatool.cn/qa/preload-hint-misuse.html): 少写一个属性，浏览器就认不出你预加载的是同一个文件，于是同一份资源下载两遍。（站内引用 13 次）
-- [名字里用生僻字会带来哪些麻烦？](https://www.suchatool.cn/qa/rare-char-name.html): 证件上能打出来的字，到了银行、机票、社保系统里可能变成一个方框或者问号。（站内引用 13 次）
-- [标准差为什么会有两个公式，我该用哪一个？](https://www.suchatool.cn/qa/sample-vs-population-sd.html): 两个公式只差分母：除以 n−1 的是样本版，除以 n 的是总体版；默认几乎都该用样本版。（站内引用 13 次）
-- [扇形、椭圆、圆环的面积该怎么算？](https://www.suchatool.cn/qa/sector-ellipse-annulus.html): 这三个图形都是圆变形来的，所以公式里都带 π——但哪一个用半径、哪一个用两个半轴，差别很大。（站内引用 13 次）
-- [基金定投的收益率，为什么和净值涨幅对不上？](https://www.suchatool.cn/qa/sip-annualized-vs-nav.html): 一个算基金涨了多少（时间加权），一个算你的钱赚了多少（资金加权），问的不是同一件事。（站内引用 13 次）
-- [声速为什么不是一个固定的数字？](https://www.suchatool.cn/qa/sound-speed-varies.html): 常说的 340 米每秒只是在某个温度下的近似值，温度一变声速就跟着变，介质换了差得更远。（站内引用 13 次）
-- [查出来的数据明明是空的，为什么程序直接报错了？](https://www.suchatool.cn/qa/sql-null-to-struct.html): 数据库里的空值不是空字符串。往不能表示「没有值」的类型里塞，驱动会直接拒绝。（站内引用 13 次）
-- [批量重命名后文件为什么排乱了？](https://www.suchatool.cn/qa/batch-rename-sort-order.html): 文件名是按字符逐个比的，所以第一个、第十个和第一百个会挤在一起。（站内引用 12 次）
-- [品牌起名怎么避免撞上注册商标？](https://www.suchatool.cn/qa/brand-trademark-risk.html): 我国实行申请在先原则，同名商标谁先申请谁拿——所以起名之后的第一件事不是设计 logo，而是查重。（站内引用 12 次）
-- [中文和英文之间到底要不要加空格？](https://www.suchatool.cn/qa/cn-en-spacing.html): 加空格是长期形成的排版惯例，而不是国标强制——该不该加，看的是相邻两个字符分别属于哪一类。（站内引用 12 次）
-- [练字帖的格子怎么选？田字格和米字格差在哪？](https://www.suchatool.cn/qa/copybook-grid-choice.html): 田字格管结构、米字格管笔画方向、九宫格管比例——选错格子，练的不是同一个东西。（站内引用 12 次）
-- [做出来的 GIF 全是色带，是哪里设置错了？](https://www.suchatool.cn/qa/gif-256-color-limit.html): 不是设置问题。这个格式每个像素只存一个调色板下标，调色板最多 256 项，渐变色必然被压成台阶。（站内引用 12 次）
-- [JS 代码混淆之后就能保护源码吗？](https://www.suchatool.cn/qa/js-obfuscation-not-security.html): 混淆只提高阅读门槛，不改变「浏览器必须下载并执行你的代码」这个事实。（站内引用 12 次）
-- [JSONPath 里两个点和一个星号有什么区别？](https://www.suchatool.cn/qa/jsonpath-syntax-traps.html): 两个点是递归到任意深度，一个星号只看当前一层，混用就会捞到不该要的字段。（站内引用 12 次）
-- [落地页转化差，第一屏该先改什么？](https://www.suchatool.cn/qa/landing-first-screen.html): 用户在第一屏只愿意花几秒钟，所以第一屏必须回答三个问题：这是什么、跟我有什么关系、下一步做什么。（站内引用 12 次）
-- [把底片反相还原，为什么颜色总是不对？](https://www.suchatool.cn/qa/negative-orange-mask.html): 彩色底片的橙色是故意做进去的：它用来补偿染料的吸收偏差。直接反相会把这一层橙原样烙进画面，得到一片青蓝。（站内引用 12 次）
-- [白噪音真的能助眠吗？白、粉、棕噪音有什么区别？](https://www.suchatool.cn/qa/noise-color-diff.html): 颜色只描述一件事：能量随频率下降多快。白噪不降、粉噪每倍频降 3 分贝、棕噪降 6 分贝。（站内引用 12 次）
-- [从 Display P3 转到 sRGB 为什么颜色变暗了？](https://www.suchatool.cn/qa/p3-to-srgb.html): P3 大约比 sRGB 多四分之一颜色，多出来的那部分在转换时只能被裁掉或压缩——鲜艳的颜色因此变灰。（站内引用 12 次）
-- [中文排序为什么和想的不一样？](https://www.suchatool.cn/qa/pinyin-stroke-collation.html): 汉字在字符集里的码位与读音、笔画毫无关系。同一份名单，按码位排是一种结果，按拼音排是另一种结果。（站内引用 12 次）
-- [二维码明明生成好了，为什么扫不出来？](https://www.suchatool.cn/qa/qrcode-scan-fail.html): 扫不出几乎总能归到三件事：留白不够、对比不足、或者码太密。（站内引用 12 次）
-- [网页上的随机抽签真的公平吗？](https://www.suchatool.cn/qa/random-fairness.html): 用了随机函数不等于公平——公平要看三件事：等概率、不可预测、结果可验证。（站内引用 12 次）
-- [屏幕上的尺子，为什么量出来不是真实尺寸？](https://www.suchatool.cn/qa/screen-ruler-needs-calibration.html): 浏览器拿不到屏幕的物理尺寸，只知道分辨率与像素比。所以「自动识别」必然有误差，摆一张实物校准才准。（站内引用 12 次）
-- [Sitemap 校验报 lastmod 格式错误，该怎么改？](https://www.suchatool.cn/qa/sitemap-lastmod-error.html): lastmod 只认 W3C 日期时间格式：要么写纯日期，要么写带时区的完整时间，斜杠和裸时间都会被判错。（站内引用 12 次）
-- [同一张图要发多个平台，尺寸怎么裁才不糊？](https://www.suchatool.cn/qa/social-cover-crop.html): 别为每个平台单独做图，先把主体压在中间的安全区里，四周留出可裁的余量。（站内引用 12 次）
-- [球的体积为什么是 4/3πr³？](https://www.suchatool.cn/qa/sphere-volume-formula.html): 不用积分也能推：把半球和「圆柱挖去圆锥」逐层对比，每一层的截面积都相等。（站内引用 12 次）
-- [开平方为什么只给正数？](https://www.suchatool.cn/qa/sqrt-principal-root-only.html): 根号是一个函数，一个输入只能对应一个输出。所以 9 的平方根有两个，但根号 9 只等于 3。（站内引用 12 次）
-- [双色球中一等奖的概率到底有多小？](https://www.suchatool.cn/qa/ssq-winning-odds.html): 一千七百七十多万分之一——按每周开奖三次算，平均要等十几万年才轮到一次。（站内引用 12 次）
-- [子网里算可用主机数，为什么一定要减 2？](https://www.suchatool.cn/qa/subnet-minus-two.html): 首地址是网段自己的名字，末地址是喊话用的喇叭，这两个都不能发给某台机器。（站内引用 12 次）
-- [《百家姓》是按人口多少排的吗？](https://www.suchatool.cn/qa/surname-order-not-population.html): 开头那四个姓是政治排序：国姓、当地君主、王妃、邻国国姓。按今天的人口排，前三名完全不是它们。（站内引用 12 次）
-- [代码里混用 Tab 和空格为什么会错位？](https://www.suchatool.cn/qa/tab-vs-space-indent.html): 制表符宽度是显示设置，缩进层级是语法事实，两者一错位就报错。（站内引用 12 次）
-- [时区转换算出来的时间，为什么会比实际差一小时？](https://www.suchatool.cn/qa/timezone-dst-offset.html): 差的这一小时几乎总来自夏令时：某一端在换算的那个日期上「正在」把钟拨快了一小时。（站内引用 12 次）
-- [「天青色」到底是什么色值？](https://www.suchatool.cn/qa/traditional-hue-hex-not-fixed.html): 传统色名是描述性词汇，不是色号。同一个名字在不同来源里可以给出相差很大的 RGB，谁都不算错。（站内引用 12 次）
-- [打字速度的 WPM 到底是怎么算的？](https://www.suchatool.cn/qa/typing-wpm.html): WPM 不是每分钟打了多少个字，而是字符数先除以 5 换成的每分钟词数——那个 5 是约定，不是标准。（站内引用 12 次）
-- [全国都用同一个时间，那些时差去哪了？](https://www.suchatool.cn/qa/unified-timezone-country.html): 时区是行政划定的，不是地理必然，同一个钟点在不同经度上对应着不同的太阳位置。（站内引用 12 次）
-- [世界上到底有多少个国家？](https://www.suchatool.cn/qa/world-countries-count.html): 答案取决于你怎么定义「国家」：按联合国口径是 195，按其他口径会多出好几个。（站内引用 12 次）
-- [曝光和触达是一个意思吗？](https://www.suchatool.cn/qa/ad-frequency-vs-reach.html): 触达数的是人，曝光数的是次。同一批人看十遍，触达不动、曝光翻十倍——用错分母，投放评估会完全走样。（站内引用 11 次）
-- [AdSense 报表里的收入到底由哪几段拼成？](https://www.suchatool.cn/qa/adsense-revenue-breakdown.html): 发布商拿到的不是广告主出价，而是抽成之后的千次展示收入；把 RPM、CPC、CTR 三个数摆在一起，才知道钱是在哪一段少掉的。（站内引用 11 次）
-- [AI 生成的文字和图片，标识到底该怎么写？](https://www.suchatool.cn/qa/ai-label-text-image.html): 文本标识要同时含「人工智能」和「生成」两项要素，图片标识要放在边角且文字高度不低于最短边的 5%——都是强制国标里的硬指标。（站内引用 11 次）
-- [AI 生成的歌，为什么人声听起来都像同一个人？](https://www.suchatool.cn/qa/ai-music-similar-vocals.html): 音色来自有限的样本与固定的风格模板，同一个模型在相近提示下会收敛到差不多的声音。（站内引用 11 次）
-- [AI 生成的 PPT，一改文字排版就崩？](https://www.suchatool.cn/qa/ai-ppt-layout-breaks.html): 它交给你的是文本框加固定版式槽位，文字一变长就溢出，而版面不会自动重排。（站内引用 11 次）
-- [空调说的「匹」到底是多大功率？](https://www.suchatool.cn/qa/aircon-horsepower-myth.html): 「匹」原本是输入功率的单位，但在空调行业里被拿来标制冷量，两个口径差了大约三倍。（站内引用 11 次）
+- [身份证号最后一位校验码是怎么算出来的？](https://www.suchatool.cn/qa/id-card-checksum.html): 18 位身份证的最后一位不是随手定的，而是一个加权取模算出来的校验位——连那个 X 也是算出来的。（站内引用 19 次）
+- [宠物年龄换算为什么 2 岁之后每年只等于人类 4 岁？](https://www.suchatool.cn/qa/pet-age-why.html): 猫狗头两年就长到人类 24 岁，之后每年只加 4 到 7 岁——不是简单乘以 7，而是一条分段折线。（站内引用 19 次）
+- [面积公式里的二分之一到底是哪儿来的？](https://www.suchatool.cn/qa/quad-area-half.html): 三角形、梯形、扇形都带二分之一，而平行四边形和长方形不带——差别在于能不能「拼成一个平行四边形」。（站内引用 18 次）
+- [蒙特卡罗方法为什么能算出圆周率？](https://www.suchatool.cn/qa/monte-carlo-pi.html): 往正方形里随机撒点，数一数有多少落在内切圆里，就能反推出圆周率——听起来不靠谱，但它确实收敛。（站内引用 17 次）
+- [年终奖多发一块钱，为什么到手反而少几百？](https://www.suchatool.cn/qa/annual-bonus-tax-cliff.html): 单独计税是按全额定档的：奖金除以十二只是用来查税率，税率一跳，全额都按新税率算。（站内引用 16 次）
+- [App 图标为什么要准备好几套尺寸？](https://www.suchatool.cn/qa/app-icon-density-spec.html): 一种密度一套位图，外加一层会给厂商遮罩裁掉的自适应图标。留白留错，圆角就成了切角。（站内引用 16 次）
+- [广告后台的转化数，为什么和订单后台对不上？](https://www.suchatool.cn/qa/attribution-lastclick-gap.html): 每个平台都按自己的归因窗口算，同一次下单会被好几个平台各记一次。（站内引用 16 次）
+- [视频导出来音画不同步，问题出在剪辑软件吗？](https://www.suchatool.cn/qa/av-sync-drift-source.html): 先分清是一直差固定时间还是越播越差，前者查时间戳，后者几乎都是帧率或采样率不匹配。（站内引用 16 次）
+- [宝宝月龄怎么算？早产儿为什么要用矫正月龄？](https://www.suchatool.cn/qa/baby-month-age.html): 凑够 40 周才是「起点」——早产宝宝的发育里程碑要按矫正月龄对，而不是按出生天数。（站内引用 16 次）
+- [获客成本、客户终身价值、回本周期哪个数字该信？](https://www.suchatool.cn/qa/cac-ltv-payback.html): 三个数字是一套的：只看比值会漏掉现金流，只看回本周期会漏掉长期是否赚钱。（站内引用 16 次）
+- [视频里的 4:2:0 到底丢了多少颜色？](https://www.suchatool.cn/qa/chroma-subsampling-loss.html): 它只丢色度的空间分辨率、不丢色相，明度是全分辨率保留的，所以自然画面几乎看不出来。（站内引用 16 次）
+- [圆的面积公式 πr² 到底是怎么推出来的？](https://www.suchatool.cn/qa/circle-area-formula.html): πr² 不是背下来的常数组合——把圆切成无数细扇形再拼起来，它就变成一个长方形。（站内引用 16 次）
+- [圆锥的体积为什么正好是等底等高圆柱的三分之一？](https://www.suchatool.cn/qa/cone-cylinder-third.html): 这个三分之一不是近似值，而是精确的整数比——三个同底等高的锥体刚好能拼满一个柱体。（站内引用 16 次）
+- [为什么缓动曲线能让元素冲过头再弹回来？](https://www.suchatool.cn/qa/css-bezier-curve-math.html): 横轴是时间、纵轴是进度，横轴必须单调，纵轴却可以越界——越界的那一段就是回弹。（站内引用 16 次）
+- [唐宋之间还夹着哪些政权？](https://www.suchatool.cn/qa/dynasty-gap-between-tang-song.html): 口诀把三段并立期藏起来了：唐宋之间是五代十国，两宋与辽、西夏、金长期并立，元明之间还有北元。（站内引用 16 次）
+- [化学方程式为什么怎么配都配不平？](https://www.suchatool.cn/qa/equation-balance-trap.html): 配平本质上是解一个线性方程组的零空间，物种一多，观察法就必然打结。（站内引用 16 次）
+- [AI 评测只跑几十条，结论能信吗？](https://www.suchatool.cn/qa/eval-sample-size-small.html): 比例型指标的误差随样本量的平方根缩小，几十条跑出来的差异，多数落在噪声里。（站内引用 16 次）
+- [K 因子大于 1，产品就一定能自己涨起来吗？](https://www.suchatool.cn/qa/k-factor-not-enough.html): K 大于 1 只是每一代能多带出一个人，涨多快还要看一轮传播要花多久。（站内引用 16 次）
+- [麦克风测试没声音，是设备坏了还是被浏览器挡住了？](https://www.suchatool.cn/qa/mic-no-sound-permission.html): 权限弹窗只是第三道门，前面还有安全上下文和响应头两道，任何一道没过都不会有声音。（站内引用 16 次）
+- [加了预加载，为什么页面反而更慢了？](https://www.suchatool.cn/qa/preload-hint-misuse.html): 少写一个属性，浏览器就认不出你预加载的是同一个文件，于是同一份资源下载两遍。（站内引用 16 次）
+- [名字里用生僻字会带来哪些麻烦？](https://www.suchatool.cn/qa/rare-char-name.html): 证件上能打出来的字，到了银行、机票、社保系统里可能变成一个方框或者问号。（站内引用 16 次）
+- [标准差为什么会有两个公式，我该用哪一个？](https://www.suchatool.cn/qa/sample-vs-population-sd.html): 两个公式只差分母：除以 n−1 的是样本版，除以 n 的是总体版；默认几乎都该用样本版。（站内引用 16 次）
+- [扇形、椭圆、圆环的面积该怎么算？](https://www.suchatool.cn/qa/sector-ellipse-annulus.html): 这三个图形都是圆变形来的，所以公式里都带 π——但哪一个用半径、哪一个用两个半轴，差别很大。（站内引用 16 次）
+- [基金定投的收益率，为什么和净值涨幅对不上？](https://www.suchatool.cn/qa/sip-annualized-vs-nav.html): 一个算基金涨了多少（时间加权），一个算你的钱赚了多少（资金加权），问的不是同一件事。（站内引用 16 次）
+- [声速为什么不是一个固定的数字？](https://www.suchatool.cn/qa/sound-speed-varies.html): 常说的 340 米每秒只是在某个温度下的近似值，温度一变声速就跟着变，介质换了差得更远。（站内引用 16 次）
+- [查出来的数据明明是空的，为什么程序直接报错了？](https://www.suchatool.cn/qa/sql-null-to-struct.html): 数据库里的空值不是空字符串。往不能表示「没有值」的类型里塞，驱动会直接拒绝。（站内引用 16 次）
+- [中文和英文之间到底要不要加空格？](https://www.suchatool.cn/qa/cn-en-spacing.html): 加空格是长期形成的排版惯例，而不是国标强制——该不该加，看的是相邻两个字符分别属于哪一类。（站内引用 15 次）
+- [从 Display P3 转到 sRGB 为什么颜色变暗了？](https://www.suchatool.cn/qa/p3-to-srgb.html): P3 大约比 sRGB 多四分之一颜色，多出来的那部分在转换时只能被裁掉或压缩——鲜艳的颜色因此变灰。（站内引用 15 次）
+- [Sitemap 校验报 lastmod 格式错误，该怎么改？](https://www.suchatool.cn/qa/sitemap-lastmod-error.html): lastmod 只认 W3C 日期时间格式：要么写纯日期，要么写带时区的完整时间，斜杠和裸时间都会被判错。（站内引用 15 次）
+- [同一张图要发多个平台，尺寸怎么裁才不糊？](https://www.suchatool.cn/qa/social-cover-crop.html): 别为每个平台单独做图，先把主体压在中间的安全区里，四周留出可裁的余量。（站内引用 15 次）
+- [AI 生成的文字和图片，标识到底该怎么写？](https://www.suchatool.cn/qa/ai-label-text-image.html): 文本标识要同时含「人工智能」和「生成」两项要素，图片标识要放在边角且文字高度不低于最短边的 5%——都是强制国标里的硬指标。（站内引用 14 次）
+- [批量重命名后文件为什么排乱了？](https://www.suchatool.cn/qa/batch-rename-sort-order.html): 文件名是按字符逐个比的，所以第一个、第十个和第一百个会挤在一起。（站内引用 14 次）
+- [品牌起名怎么避免撞上注册商标？](https://www.suchatool.cn/qa/brand-trademark-risk.html): 我国实行申请在先原则，同名商标谁先申请谁拿——所以起名之后的第一件事不是设计 logo，而是查重。（站内引用 14 次）
+- [练字帖的格子怎么选？田字格和米字格差在哪？](https://www.suchatool.cn/qa/copybook-grid-choice.html): 田字格管结构、米字格管笔画方向、九宫格管比例——选错格子，练的不是同一个东西。（站内引用 14 次）
+- [做出来的 GIF 全是色带，是哪里设置错了？](https://www.suchatool.cn/qa/gif-256-color-limit.html): 不是设置问题。这个格式每个像素只存一个调色板下标，调色板最多 256 项，渐变色必然被压成台阶。（站内引用 14 次）
+- [JS 代码混淆之后就能保护源码吗？](https://www.suchatool.cn/qa/js-obfuscation-not-security.html): 混淆只提高阅读门槛，不改变「浏览器必须下载并执行你的代码」这个事实。（站内引用 14 次）
+- [JSONPath 里两个点和一个星号有什么区别？](https://www.suchatool.cn/qa/jsonpath-syntax-traps.html): 两个点是递归到任意深度，一个星号只看当前一层，混用就会捞到不该要的字段。（站内引用 14 次）
+- [落地页转化差，第一屏该先改什么？](https://www.suchatool.cn/qa/landing-first-screen.html): 用户在第一屏只愿意花几秒钟，所以第一屏必须回答三个问题：这是什么、跟我有什么关系、下一步做什么。（站内引用 14 次）
+- [把底片反相还原，为什么颜色总是不对？](https://www.suchatool.cn/qa/negative-orange-mask.html): 彩色底片的橙色是故意做进去的：它用来补偿染料的吸收偏差。直接反相会把这一层橙原样烙进画面，得到一片青蓝。（站内引用 14 次）
+- [白噪音真的能助眠吗？白、粉、棕噪音有什么区别？](https://www.suchatool.cn/qa/noise-color-diff.html): 颜色只描述一件事：能量随频率下降多快。白噪不降、粉噪每倍频降 3 分贝、棕噪降 6 分贝。（站内引用 14 次）
+- [中文排序为什么和想的不一样？](https://www.suchatool.cn/qa/pinyin-stroke-collation.html): 汉字在字符集里的码位与读音、笔画毫无关系。同一份名单，按码位排是一种结果，按拼音排是另一种结果。（站内引用 14 次）
+- [二维码明明生成好了，为什么扫不出来？](https://www.suchatool.cn/qa/qrcode-scan-fail.html): 扫不出几乎总能归到三件事：留白不够、对比不足、或者码太密。（站内引用 14 次）
+- [网页上的随机抽签真的公平吗？](https://www.suchatool.cn/qa/random-fairness.html): 用了随机函数不等于公平——公平要看三件事：等概率、不可预测、结果可验证。（站内引用 14 次）
+- [屏幕上的尺子，为什么量出来不是真实尺寸？](https://www.suchatool.cn/qa/screen-ruler-needs-calibration.html): 浏览器拿不到屏幕的物理尺寸，只知道分辨率与像素比。所以「自动识别」必然有误差，摆一张实物校准才准。（站内引用 14 次）
+- [球的体积为什么是 4/3πr³？](https://www.suchatool.cn/qa/sphere-volume-formula.html): 不用积分也能推：把半球和「圆柱挖去圆锥」逐层对比，每一层的截面积都相等。（站内引用 14 次）
+- [开平方为什么只给正数？](https://www.suchatool.cn/qa/sqrt-principal-root-only.html): 根号是一个函数，一个输入只能对应一个输出。所以 9 的平方根有两个，但根号 9 只等于 3。（站内引用 14 次）
+- [双色球中一等奖的概率到底有多小？](https://www.suchatool.cn/qa/ssq-winning-odds.html): 一千七百七十多万分之一——按每周开奖三次算，平均要等十几万年才轮到一次。（站内引用 14 次）
+- [子网里算可用主机数，为什么一定要减 2？](https://www.suchatool.cn/qa/subnet-minus-two.html): 首地址是网段自己的名字，末地址是喊话用的喇叭，这两个都不能发给某台机器。（站内引用 14 次）
+- [《百家姓》是按人口多少排的吗？](https://www.suchatool.cn/qa/surname-order-not-population.html): 开头那四个姓是政治排序：国姓、当地君主、王妃、邻国国姓。按今天的人口排，前三名完全不是它们。（站内引用 14 次）
+- [代码里混用 Tab 和空格为什么会错位？](https://www.suchatool.cn/qa/tab-vs-space-indent.html): 制表符宽度是显示设置，缩进层级是语法事实，两者一错位就报错。（站内引用 14 次）
+- [时区转换算出来的时间，为什么会比实际差一小时？](https://www.suchatool.cn/qa/timezone-dst-offset.html): 差的这一小时几乎总来自夏令时：某一端在换算的那个日期上「正在」把钟拨快了一小时。（站内引用 14 次）
+- [「天青色」到底是什么色值？](https://www.suchatool.cn/qa/traditional-hue-hex-not-fixed.html): 传统色名是描述性词汇，不是色号。同一个名字在不同来源里可以给出相差很大的 RGB，谁都不算错。（站内引用 14 次）
+- [打字速度的 WPM 到底是怎么算的？](https://www.suchatool.cn/qa/typing-wpm.html): WPM 不是每分钟打了多少个字，而是字符数先除以 5 换成的每分钟词数——那个 5 是约定，不是标准。（站内引用 14 次）
+- [全国都用同一个时间，那些时差去哪了？](https://www.suchatool.cn/qa/unified-timezone-country.html): 时区是行政划定的，不是地理必然，同一个钟点在不同经度上对应着不同的太阳位置。（站内引用 14 次）
+- [世界上到底有多少个国家？](https://www.suchatool.cn/qa/world-countries-count.html): 答案取决于你怎么定义「国家」：按联合国口径是 195，按其他口径会多出好几个。（站内引用 14 次）
+- [零宽字符是怎么把信息藏进文字的？](https://www.suchatool.cn/qa/zero-width-stego.html): 一段看起来一模一样的文字，字符数却多了几十个——多出来的那些，就是藏起来的消息。（站内引用 13 次）
+- [曝光和触达是一个意思吗？](https://www.suchatool.cn/qa/ad-frequency-vs-reach.html): 触达数的是人，曝光数的是次。同一批人看十遍，触达不动、曝光翻十倍——用错分母，投放评估会完全走样。（站内引用 12 次）
+- [AdSense 报表里的收入到底由哪几段拼成？](https://www.suchatool.cn/qa/adsense-revenue-breakdown.html): 发布商拿到的不是广告主出价，而是抽成之后的千次展示收入；把 RPM、CPC、CTR 三个数摆在一起，才知道钱是在哪一段少掉的。（站内引用 12 次）
+- [AI 生成的歌，为什么人声听起来都像同一个人？](https://www.suchatool.cn/qa/ai-music-similar-vocals.html): 音色来自有限的样本与固定的风格模板，同一个模型在相近提示下会收敛到差不多的声音。（站内引用 12 次）
+- [AI 生成的 PPT，一改文字排版就崩？](https://www.suchatool.cn/qa/ai-ppt-layout-breaks.html): 它交给你的是文本框加固定版式槽位，文字一变长就溢出，而版面不会自动重排。（站内引用 12 次）
 
 ## AI 提示词模板
 
